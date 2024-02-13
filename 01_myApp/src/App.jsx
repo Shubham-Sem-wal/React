@@ -1,6 +1,6 @@
 import './App.css'
 import Body from './Component/Body'
-import Header from './Component/Header'
+import Header from './Component/Header.jsx'
 
 function App() {
   return (
