@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React is love</title>
+</head>
+<body>
+
+    <!-- TASK-1 : Create simple hello world using html -->
+    <!-- <div id="root">
+        <h1>hello world!!</h1>
+    </div> -->
+
+    
+    <!-- TASK-2 : Create simple hellow world using javascript -->
+    <!-- <div id="root"></div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "hello world from javaScript";
+
+        const root = document.getElementById("root");
+        root.append(heading);
+    </script> -->
+
+
+    <!-- TASK-3 : Create simple hello world with react -->
+    <div id="root"></div>
+    <!-- first we have to inject cdn links into our project -->
+
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react@18/umd/react.development.js"
+        ></script>
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+        ></script>
+    <!-- now our browser can understand the react code -->
+
+    <!-- <script>
+        const heading = React.createElement("h1" , {} , "hello world from react"); 
+                createElement takes three things tagname which we want to create , an object , and the content (childeren) which we want to put inside the tag 
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+                select root or select element where we want to create our element
+                creating root is not core react part it is done by using ReactDom
+
+        root.render(heading);
+                after that we have to render our element(here heading) to root (here div)
+    </script> -->
+
+
+
+    <script src="./app.js"></script>
+
+
+
+
+    
+</body>
+</html>

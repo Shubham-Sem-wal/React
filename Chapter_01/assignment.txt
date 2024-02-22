@@ -1,0 +1,40 @@
+1️⃣What is Emmet? - emmet is development toolkit which is a kind of shorthand for our code.
+                    it is used to create boiler plate for our code which defines structure.
+                    emmet helps developers to write code in minimal typing
+
+2️⃣Difference between a Library and Framework?
+            framework enforces us to write a code in its own term
+            library is kind of a tool which is used for building some functionality
+            framework is collection of different tools.
+            framework comes with more contraints
+            library can be used in our project in some part also.
+
+3️⃣What is CDN? Why do we use it?
+            -Stands for Content Delivery Netwok
+            -CDN is geographically distributed network of servers
+            -It delivers web content
+            -prevent network congestion (traffic jam)
+            -backbone of the internet nowdays
+
+4️⃣Why is React known as React?
+            -React is very fast as it 'react' to changes very quickly without loading the whole page
+
+5️⃣What is crossorigin in script tag?
+            -The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+            -A cross-origin request is a request for a resource from another domain.
+
+6️⃣What is diference between React and ReactDOM
+            -React: React is a javascript library, designed for building better user interfaces.
+            -React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM
+            -Whenever we use component, classes, elements, etc. We’re using React and whenever 
+                we use methods like render() or findDOMNode() we’re using React-DOM.
+            -React is core library built over javascript. React Dom is impletation od this core library for browsers
+            -As core React is also used in various thing like React-native , React-three , React-art etc
+            -so it is cleared that React is main core part but its usage may be vary for diffrent environment.
+
+7️⃣What is difference between react.development.js and react.production.js files via CDN?
+            -react.development.js - More developer friendly, readable, will take more size.
+            -react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, 
+                code efficiency.
+
+8️⃣What is async and defer? ❌

@@ -1,0 +1,21 @@
+-- our browser understands only html , css , and javascript
+-- react is not a part of our browser
+-- to work with react we have to inject CDN links into our code
+--  WHAT ARE CDN LINKS ?
+-- there are two cdn links 1-"react.development.js" and 2-"react-dom.development.js"
+-- react not only work for browser but also work for mobile development as react-native
+
+-- React.createElement is an object
+-- the render method actually converts this object into the html element
+
+-- const heading = React.createElement("h1" , {} , "hello world from react");
+        -here {} , is used for adding attributes to our html tag (attribute_name : " " )
+        - for ex: {id : "heading"}
+
+-- order of cdn links matters.
+        - first our cdn links script
+        - then our app.js script
+
+-- library and framework
+        - react can work for a little piece of our code
+        - react can work on our existing project with other framework
