@@ -1,0 +1,19 @@
+⏺️ npm - npm not stands for node package manager
+        - It manages packages but its fullform is not "node package manager".
+        - It is a standard repository for all the packages.
+⏺️ package.json is configuaration for npm . it tracks the version of package we use in our project
+        every libarary has their own package.json
+
+⏺️bundler - webpack , parcel , vite
+           - create react app behind the scene uses webpack as a bundler
+           - two types of dependencies 1.dev 2. normal dependencies
+
+⏺️ carrot(^) and tilda(~) - ❌
+
+⏺️ package-lock.json - keeps the record of exact version of the every dependencies
+
+⏺️ node modules - should not move to git as it can be recreated again
+
+⏺️ npx - for executing our package
+
+⏺️ use of bundler - ❌
