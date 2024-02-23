@@ -1,0 +1,25 @@
+⏺️ JSX - jsx is not a part of react
+        - it is not html inside javascript
+        - jsx is html like syntax or we can say "it is syntax extension of javascript".
+
+⏺️ note - In core react
+                const heading = React.createElement("h1" , {id:"heading"} , "hello react");
+
+            In JSX 
+                const heading = <h1 id="heading"> hello react </h1>;
+
+⏺️ note - JS engine understands only pure javascript which is defined by ecma script
+         - JSX code is transpiled into javascript code before it reaches to the broweser and
+                this is done by bundler (bable do it for bundler)
+        
+⏺️ Bable - is a javascript compiler it transpiled JSX code into actual javascript code
+          - bable is not created by facebook
+          
+⏺️ React component - There are two type of react component
+                    -functional component
+                    -class based component
+
+                    fucntional component - functional component is nothing but normal javascript function 
+                                            which returns some piece of JSX.
+
+                    - component composition : using component inside component
